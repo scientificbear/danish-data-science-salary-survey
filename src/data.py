@@ -122,10 +122,10 @@ def load_data(data_dir: Union[str, Path] = "data") -> pd.DataFrame:
 
     # Convert custom sectors to their respective categories
     sector_map = {
-        "University": "Education/Research",
-        "Research": "Education/Research",
-        "Trading company (Preowned Medical Equipment)": "Retail/E-commerce",
-        "Consumer industries": "Retail/E-commerce",
+        "University": "Education / Research",
+        "Research": "Education / Research",
+        "Trading company (Preowned Medical Equipment)": "Retail / E-commerce",
+        "Consumer industries": "Retail / E-commerce",
         "Agency": "Consulting",
         "Jobportaler": "Tech",
         "Union": "Law",

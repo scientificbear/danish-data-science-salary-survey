@@ -58,7 +58,13 @@ MEDIAN_SORT_COLS = [
 
 
 # Values to remove for appearance
-FILTER_VALS = ["Other", "Prefer not to say"]
+FILTER_VALS = [
+    "Other",
+    "Prefer not to say",
+    "I do not know",
+    "I'm not affiliated with a particular geographic location",
+    "no answer"
+    ]
 
 
 # URLs
